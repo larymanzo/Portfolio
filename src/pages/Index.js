@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { userInformation } from '../redux/actions';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
+import '../css/initial.css';
 
 
 class Login extends Component {
@@ -27,30 +28,32 @@ class Login extends Component {
     const { handleChange, state } = this;
     return (
       <>
-        <header className="App-header">
-          <section>
-            <h3>Seja bem-vindo!!</h3>
-            <h3>Coloque o seu nome para continuar!</h3>
+        <header className="welcome-initial">
+          <section className="section-initial">
+            <section>
+              <h3>Seja bem-vindo!!</h3>
+              <h3>Coloque o seu nome para continuar!</h3>
+            </section>
+            <form action="">
+              <input
+                type="text"
+                placeholder="Nome"
+                name="name"
+                value={ name }
+                onChange={ (value) => handleChange(value) }
+              />
+              <Link to="/boas-vindas">
+                <button
+                  type="button"
+                  onClick={ () => {
+                    sendInfo(state);
+                  } }
+                >
+                  Entrar
+                </button>
+              </Link>
+            </form>
           </section>
-          <form action="">
-            <input
-              type="text"
-              placeholder="Nome"
-              name="name"
-              value={ name }
-              onChange={ (value) => handleChange(value) }
-            />
-            <Link to="/boas-vindas">
-              <button
-                type="button"
-                onClick={ () => {
-                  sendInfo(state);
-                } }
-              >
-                Entrar
-              </button>
-            </Link>
-          </form>
         </header>
         <Footer />
       </>
