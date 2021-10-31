@@ -8,11 +8,11 @@ class Contato extends React.Component {
     return (
       <>
         <Header />
-        <section className="welcome">
-          <a className="nav-contact" href="//www.github.com/larymanzo" alt="github">
+        <section className="welcome section-main">
+          <a className="" href="//www.github.com/larymanzo" alt="github">
             Github
           </a>
-          <a className="nav-contact" href="//www.linkedin.com/in/larissa-manzo/" alt="github">
+          <a className="" href="//www.linkedin.com/in/larissa-manzo/" alt="github">
             Linkedin
           </a>
         </section>

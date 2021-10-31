@@ -30,10 +30,12 @@ class Login extends Component {
       <>
         <header className="welcome-initial">
           <section className="section-initial">
-            <section>
+            <div>
               <h3>Seja bem-vindo!!</h3>
+            </div>
+            <div>
               <h3>Coloque o seu nome para continuar!</h3>
-            </section>
+            </div>
             <form action="">
               <input
                 type="text"

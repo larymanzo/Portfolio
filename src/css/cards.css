@@ -4,14 +4,15 @@ body {
 }
 
 .welcome {
+  align-items: center;
   border-radius: 15px;
   color:rgb(218, 129, 175);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 5%;
+  margin: 10% 27%;
   padding: 3rem;
-  width: 30rem;
+  width: 40%;
 }
 
 .section-main {
@@ -20,10 +21,25 @@ body {
   border-radius: 15px;
 }
 
+.projects-main {
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  color:rgb(218, 129, 175);
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  width: 90%;
+}
+
 .section-about {
   background-color: 248, 225, 237;
   box-shadow: 0px 0px 20px 10px rgb(223, 169, 197);
   border-radius: 15px;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
 }
 
 /* link que foi visitado */
@@ -35,21 +51,4 @@ a:visited {
 /* mouse over */
 a:hover {
   color: rgb(218, 17, 120);
-}
-
-.nav-contact {
-  display: flex;
-  background-color: 248, 225, 237;
-  box-shadow: 0px 0px 20px 10px rgb(223, 169, 197);
-  border-radius: 15px;
-  color:rgb(218, 129, 175);
-  flex-direction: column;
-  align-items: center;
-  margin: 5%;
-  padding: 3rem;
-  width: 30rem;
-}
-
-.nav-contact a {
-  padding: 3rem;
 }
