@@ -1,5 +1,5 @@
 .main-header {
-  color:thistle;
+  color:rgb(218, 129, 175);
   background-color: white;
   box-shadow: 0px 0px 20px 10px rgb(224, 180, 203);
   display: flex;
@@ -30,3 +30,15 @@ a {
   justify-content: space-between;
   padding: 10px;
 }
+
+/* link que foi visitado */
+.nav-bar-header a:visited {
+   text-decoration: none;
+   color: inherit;
+}
+
+/* mouse over */
+.nav-bar-header a:hover {
+   color: rgb(218, 17, 120);
+}
+

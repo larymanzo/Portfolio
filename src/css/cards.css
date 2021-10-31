@@ -5,7 +5,7 @@ body {
 
 .welcome {
   border-radius: 15px;
-  color:thistle;
+  color:rgb(218, 129, 175);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,4 +24,27 @@ body {
   background-color: 248, 225, 237;
   box-shadow: 0px 0px 20px 10px rgb(223, 169, 197);
   border-radius: 15px;
+}
+
+/* link que foi visitado */
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* mouse over */
+a:hover {
+  color: rgb(218, 17, 120);
+}
+
+.nav-contact {
+  display: flex;
+  flex-direction: row;
+  background-color: 248, 225, 237;
+  box-shadow: 0px 0px 20px 10px rgb(223, 169, 197);
+  border-radius: 15px;
+}
+
+.nav-contact a {
+  padding: 3rem;
 }
