@@ -1,0 +1,27 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: white;
+}
+
+.welcome {
+  border-radius: 15px;
+  color:thistle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+  padding: 3rem;
+  width: 30rem;
+}
+
+.section-main {
+  background-color: 248, 225, 237;
+  box-shadow: 0px 0px 20px 10px rgb(223, 169, 197);
+  border-radius: 15px;
+}
+
+.section-about {
+  background-color: deeppink;
+  border-radius: 15px;
+}
+
