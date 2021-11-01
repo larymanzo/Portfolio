@@ -7,7 +7,7 @@ class Project extends React.Component {
       <section className="projects-main">
           <a
             className="section-about"
-            href="//www.linkedin.com/in/larissa-manzo/"
+            href="https://github.com/larymanzo/Projetos_trybe/tree/master/project-trybewallet"
             target="_blank"
             rel="noreferrer">
             <div className="projects">
