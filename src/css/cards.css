@@ -42,6 +42,11 @@ body {
   margin: 5%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* link que foi visitado */
 a:visited {
   text-decoration: none;
