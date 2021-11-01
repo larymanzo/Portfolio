@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer'
-import Larissa from './Larissa.jpeg'
+import Larissa from '../images/Larissa.jpeg'
 import '../css/main.css'
 
 class BoasVindas extends React.Component {

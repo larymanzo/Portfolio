@@ -1,7 +1,7 @@
 .main-header {
-  color:rgb(218, 129, 175);
   background-color: white;
   box-shadow: 0px 0px 20px 10px rgb(224, 180, 203);
+  color:rgb(218, 129, 175);
   display: flex;
   justify-content: space-around;
   left: 0;
@@ -22,13 +22,12 @@ a {
   align-self: center;
   display: flex;
   justify-content: space-between;
-
 }
 
 .item-nav-bar {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
 }
 
 /* link que foi visitado */

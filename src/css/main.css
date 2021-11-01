@@ -20,6 +20,24 @@
   padding-right: 5%;
 }
 
+.main-contact {
+  border-radius: 15px;
+  color:rgb(218, 129, 175);
+  display: flex;
+  margin-top: 8%;
+}
+
+.contact {
+  margin-left: 5%;
+  padding-left: 5%;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+
 .entalhe {
   background-color: #05DBF2;
   height: 8px;
@@ -32,4 +50,28 @@
 .imagem {
   border-radius: 500px;
   width: 15rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+.button{
+  border-radius: 10px;
+  border-color: white;
+  Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  padding: 5px;
+  color: white;
+  background-color: rgb(218, 129, 175);
+}
+
+.input {
+  border-radius: 10px;
+  border-color: rgb(218, 129, 175);
+  Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  align-self: center;
 }

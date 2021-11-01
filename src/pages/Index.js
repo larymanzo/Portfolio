@@ -34,16 +34,18 @@ class Login extends Component {
               <h3>Coloque o seu nome para continuar!</h3>
             </div>
             <div>
-              <form action="">
+              <form action="" className="form">
                 <input
+                className="input"
                   type="text"
                   placeholder="Nome"
                   name="name"
                   value={ name }
                   onChange={ (value) => handleChange(value) }
                 />
-                <Link to="/boas-vindas">
+                <Link to="/inicio">
                   <button
+                  className="button"
                     type="button"
                     onClick={ () => {
                       sendInfo(state);
