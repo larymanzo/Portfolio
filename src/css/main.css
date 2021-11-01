@@ -52,6 +52,19 @@
   width: 15rem;
 }
 
+.link-contact {
+  align-items: center;
+  display: flex;
+  margin: 2.5%;
+  padding: 1%;
+  width: 100%;
+}
+
+.icon {
+  width: 2rem;
+  margin: 2%;
+}
+
 .form {
   display: flex;
   flex-direction: row;
