@@ -13,8 +13,7 @@ class Header extends Component {
           Olá, { name } !
         </h3>
         <nav className="nav-bar-header">
-          <Link to="/boas-vindas" className="item-nav-bar">Boas vindas</Link>
-          <Link to="/sobre" className="item-nav-bar">Sobre mim</Link>
+          <Link to="/inicio" className="item-nav-bar">Início</Link>
           <Link to="/projetos" className="item-nav-bar">Projetos</Link>
           <Link to="/contato" className="item-nav-bar">Contato</Link>
         </nav>

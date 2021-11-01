@@ -1,0 +1,35 @@
+.welcome-main {
+  border-radius: 15px;
+  color:rgb(218, 129, 175);
+  display: flex;
+  justify-content:space-between;
+  margin-top: 8%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  padding-left: 5%;
+}
+
+.info-main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.entalhe {
+  background-color: #05DBF2;
+  height: 8px;
+  width: 60px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 5%;
+}
+
+.imagem {
+  border-radius: 500px;
+  width: 15rem;
+}
